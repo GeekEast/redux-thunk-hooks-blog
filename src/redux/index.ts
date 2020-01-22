@@ -1,5 +1,5 @@
 import { combineReducers } from 'redux';
-import { reducer as posts } from './instances/posts';
+import { reducer as posts } from './posts';
 
 
 // export reducers
@@ -12,6 +12,6 @@ export default combineReducers({
 export { FETCH_USER, FETCH_POSTS } from './types'
 
 // export action creators
-export { fetchPosts } from './instances/posts'
+export { fetchPosts } from './posts'
 
 

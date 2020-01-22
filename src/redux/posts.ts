@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { FETCH_POSTS as FETCH } from '../types'
+import { FETCH_POSTS as FETCH } from './types'
 import _ from 'lodash';
 
 const _fetchPosts = _.memoize(async (dispatch) => {
